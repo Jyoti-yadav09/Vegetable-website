@@ -16,8 +16,8 @@ const Navbar = () => {
     <div className='flex items-center justify-between max-w-7xl mx-auto'> 
     
            {/*logo */}
-      <div className='flex  h-24'>
-        <img src={logo} alt="Logo" className='h-18 w-20' /> 
+      <div className='flex h-24 '>
+        <img src={logo} alt="Logo" className='h-22 scale-x-200 scale-y-200  w-25' /> 
       </div>
 
            {/*Search */}
@@ -30,17 +30,21 @@ const Navbar = () => {
       </div>
 
        {/*Wishlist, cart, login */}
-        <div className='flex  gap-6 text-lg'>
+        <div className='flex  gap-6 text-2xl text-white'>
               {/*wishlist */}
           <div className='relative cursor-pointer'>
             <FontAwesomeIcon icon={faHeart}/>
-            <span className=''></span>
+            <span className='absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full px-1'>
+          0
+        </span>
           </div>
        
            {/*cart */}
            <div className=' relative cursor-pointer'>
         <FontAwesomeIcon icon={faCartShopping}/>
-       <span>  </span>
+        <span className='absolute top-0 right-0 bg-red-600 text-white text-xs rounded-full px-1'>
+          0
+        </span>
       </div>
     
            {/*Login */}
