@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../assets/logo.png'; 
+import {Link} from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import {faUser} from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +11,7 @@ const Navbar = () => {
 
    const [isCategorOpen, setIsCatogoryOpen]=useState(false);
   return (
-    <nav className='bg-green-300 px-6 py-3 h-[100px] '> 
+    <nav className='bg-green-600 px-6 py-3 h-[100px] '> 
     
     <div className='flex items-center justify-between max-w-7xl mx-auto'> 
     
@@ -80,8 +81,8 @@ const Navbar = () => {
         
                 {/*shop and contact links}*/}
                 <div className='flex items-center gap-6'>
-                   <a href="/shop" className='text-gray-700 text-lg hover:text-blue-600'>Shop</a>
-                   <a href="/contact" className='text-gray-700 text-lg  hover:text-blue-600'>Contact</a>
+                   <Link to="/shop" className='text-gray-700 text-lg hover:text-blue-600'>Shop</Link>
+                   <Link to="/contact" className='text-gray-700 text-lg  hover:text-blue-600'>Contact</Link>
                 </div>
                 
           </div>
