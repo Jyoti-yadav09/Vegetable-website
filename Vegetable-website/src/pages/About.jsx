@@ -1,8 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
     <div className='px-6 py-24 max-w-7xl mx-auto '>
+
+
         {/*About Section */}
       <div className='text-center mb-8 '>
          <h2 className='text-4xl font-bold text-green-600 mb-6 '>About</h2>
