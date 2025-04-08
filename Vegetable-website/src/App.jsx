@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Shop from './pages/Shop';
+import ProductDetail from './pages/ProductDetail';
 
 const App = () => {
   return (
@@ -15,6 +17,9 @@ const App = () => {
       <Routes>
         <Route path="/about" element={<About/>}/>      
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/shop" element={<Shop/>}/>
+        <Route path="/product/:id" element={<ProductDetail />} />
+
     
       </Routes>
       <Footer/>
