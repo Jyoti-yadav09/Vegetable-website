@@ -2,260 +2,261 @@ import { Link } from "react-router-dom";
 
 const products = [
   {
-    id: 1,
+    slug: "apple",
     name: "Apple",
     price: 300,
     image: "apple.png",
   },
   {
-    id: 2,
+    slug:"avocado",
     name: "Avocado",
     price: 200,
     image: "avocado.png",
   },
   {
-    id: 3,
+    slug:"bamboo-shoot",
     name: "Bamboo shoot",
     price: 180,
     image: "bamboo-shoot.png",
   },
   {
-    id: 4,
+    slug:"banana",
     name: "Banana",
     price: 100,
     image: "banana.png",
   },
+
    {
-     id:5,
+      slug:"beet-root",
      name:"Beet root",
      price:100,
      image:"beet-root.png",
    },
     {
-       id:6,
+       slug:"black-grape",
        name:"Black Grapes",
        price:100,
        image:"black-grape.png",
     },
      {
-       id:7,
+       slug:"brinjal",
        name:"Brinjal",
        price:80,
        image:"brinjal.png",
      },
       
      {
-       id:8,
+       slug:"brocauli",
        name:"Brocauli",
        price:100,
        image:"brocauli.png",
      },
       
      {
-       id:9,
+        slug:"cabbage",
        name:"Cabbage",
        price:70,
        image:"cabbage.png",
      },
       
      {
-       id:10,
+       slug:"capsicum",
        name:"Capsicum",
        price:100,
        image:"capsicum.png",
      },
       
      {
-       id:11,
+       slug:"carrot",
        name:"Carrot",
        price:100,
        image:"carrot.png",
      },
 
       {
-         id:12,
+         slug:"cauliflower",
          name:"Cauliflower",
          price:100,
          image:"cauliflower.png",
       },
        
        {
-         id:13,
+         slug:"chilly-red",
          name:"Chilly-red",
          price:100,
          image:"chilly-red.png",
        },
 
         {
-           id:14,
+           slug:"coconut",
            name:"Coconut",
            price:100,
            image:"coconut.png",
         },
            
         {
-           id:15,
+           slug:"coriander",
            name:"Coriander",
            price:100,
            image:"coriander.png",
         },
 
         {
-           id:16,
+           slug:"cucumber",
            name:"Cucumber",
            price:100,
            image:"cucumber.png",
         },
 
         {
-          id:17,
+           slug:"garlic",
           name:"Garlic",
           price:100,
           image:"garlic.png",
        },
 
        {
-        id:18,
+        slug:"green-bodi",
         name:"Green bodi",
         price:100,
         image:"green-bodi.png",
      },
 
      {
-      id:19,
+      slug:"green-chilly",
       name:"Greeen-chilly",
       price:100,
       image:"green-chilly.png",
      },
 
        {
-        id:19,
+        slug:"green-garlic",
         name:"Green garlic",
         price:100,
         image:"green-garlic.png",
      },
 
      {
-      id:20,
+       slug:"green-grape",
       name:"Green grapes",
       price:100,
       image:"green-grape.png",
    },
  
    {
-    id:21,
+    slug:"green-peas",
     name:"Green peas",
     price:100,
     image:"green-peas.png",
  },
 
     {
-     id:22,
+     slug:"jackfruit",
      name:"Jackfruit",
     price:100,
     image:"jack-fruit.png",
    },
 
     {
-       id:23,
+       slug:"karela",
        name:"Karela",
        price:100,
        image:"karela.png",
     },
 
     {
-       id:24,
+       slug:"lady-finger",
        name:"Lady finger",
        price:100,
        image:"lady-finger.png",
     },
 
       {
-         id:25,
+         slug:"laukaa",
          name:"Lauka",
          price:100,
          image:"laukaa.png",
       },
 
        {
-         id:26,
+         slug:"lemon",
          name:"Lemon",
          price:100,
          image:"lemon.png",
        },
 
         {
-           id:27,
+           slug:"lettuce-patta",
            name:"Lettuce patta",
            price:100,
            image:"lettuce patta.png",
         },
          
         {
-           id:28,
+           slug:"litchi",
            name:"Litchi",
            price:100,
            image:"litchi.png",
         },
 
         {
-           id:29,
+           slug:"long-beans",
            name:"Long beans",
            price:100,
            image:"long-beans.png",
         },
 
         {
-          id:30,
+          slug:"mango",
           name:"Mango",
           price:100,
           image:"Mango.png",
         },
 
          {
-           id:31,
+           slug:"methi-saag",
            name:"Methi saag",
            price:100,
            image:"methi-saag.png",
          },
 
          {
-           id:32,
+           slug:"mushroom-button",
            name:"Mushroom button",
            price:100,
            image:"mushroom-button.png",
          },
 
          {
-           id:33,
+           slug:"mushroom-flat",
            name:"Mushroom flat",
            price:100,
            image:"mushroom-flat.png",
          },
 
           {
-             id:34,
+             slug:"neuro",
              name:"Neuro",
              price:100,
              image:"neuro.png",
           },
  
           {
-             id:35,
+             slug:"onion",
              name:"Onion",
              price:100,
              image:"onion.png",
           },
       
           {
-             id:36,
+             slug:"orange",
              name:"Orange",
              price:100,
              image:"orange.png",
           },
 
           {
-             id:37,
+             slug:"palak-saag",
              name:"Palak saag",
              price:100,
              image:"palak-saag.png",
@@ -263,49 +264,49 @@ const products = [
           },
 
            {
-             id:38,
+             slug:"papaya",
              name:"Papaya",
              price:100,
              image:"papaya.png",
            },
 
            {
-             id:39,
+             slug:"parwal",
              name:"Parwal",
              price:100,
              image:"parwal.png",
            },
 
            {
-             id:40,
+             slug:"pear",
              name:"Pear",
              price:100,
              image:"pear.png",
            },
 
            {
-             id:41,
+             slug:"pineapple",
              name:"Pineapple",
              price:100,
              image:"pineapple.png",
            },
             
            {
-             id:42,
+             slug:"potato",
              name:"Potato",
              price:100,
              image:"potato.png",
            },
 
            { 
-            id:43,
+            slug:"pumpkin",
             name:"Pumpkin",
             price:100,
             image:"pumpkin.png",
            },
 
            {
-             id:44,
+             slug:"radish",
              name:"Radish",
              price:100,
              image:"rayo-saag.png",
@@ -313,35 +314,35 @@ const products = [
            },
 
            {
-             id:45,
+             slug:"strawberry",
              name:"Strawberry",
              price:130,
              image:"strawberry.png"
            },
 
            {
-             id:46,
+             slug:"tarul",
              name:"Tarul",
              price:120,
              image:"tarul.png",
            },
 
            {
-             id:47,
+             slug:"tomato",
              name:"Tomato",
              price:100,
              image:"tomato.png",
            },
 
            {
-             id:48,
+             slug:"turnip",
              name:"Turnip",
              price:100,
              image:"turnip.png",
            },
 
            {
-             id:49,
+             slug:"uskus",
              name:"Uskus",
              price:100,
              image:"uskus.png",
@@ -359,7 +360,7 @@ const Shop = () => {
         {
           products.map((product)=>
           (
-           <Link to={`/product/${product.id}`} key={product.id}
+           <Link to={`/product/${product.slug}`} key={product.slug}
            className="bg-white rounded-2xl shadow hover:shadow-lg transition p-4"
            > 
            
