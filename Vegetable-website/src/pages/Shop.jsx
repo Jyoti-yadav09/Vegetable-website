@@ -346,7 +346,15 @@ const products = [
              name:"Uskus",
              price:100,
              image:"uskus.png",
+           },
+
+           {
+             slug:"watermelon",
+             name:"Watermelon",
+             price:100,
+             image:"watermelon.png"
            }
+           
 
 ];
 
