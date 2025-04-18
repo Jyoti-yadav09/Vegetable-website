@@ -25,7 +25,7 @@ const products = [
      category:"Fruits",
      stock:46,
      rating:0,
-     description:"hi"
+     description:"Avocados are oval shaped fruits with a thick green and a bumpy, leathery outer skin. They have a unique-texture, with a creamy and light green coloured flesh that has a buttery flavour and special aroma. Avocados are also known as an alligator pear or butter fruit. Fresho avocados delivered to you, will not just entice your taste buds but will also ensure your well being"
    },
 
     {
@@ -37,7 +37,7 @@ const products = [
        category:"Vegetables",
        stock:46,
        rating:0,
-       description:"Hi"
+       description:"Bamboo shoots contain phytochemicals, which have antibacterial and antiviral effects in the body. They are a good source of dietary fibre. Bamboo shoots contain potassium, important for a healthy heart and to maintain normal blood pressure."
 
     },
 
@@ -50,7 +50,7 @@ const products = [
        category:"Fruits",
        stock:46,
        rating:0,
-       description:"Hi"
+       description:"Tiny and small sized, this variety is called Yelakki in Bangalore and Elaichi in Mumbai. Despite its small size, they are naturally flavoured, aromatic and sweeter compared to regular bananas. Yelakki bananas are around 3- 4 inches long and contain a thinner skin and better shelf life than Robusta bananas."
      },
 
      {
@@ -62,7 +62,7 @@ const products = [
        category:"Vegetables",
        stock:46,
        rating:0,
-       description:"Hi"
+       description:"Baby candy beetroot is an eye-catching garnish and is a fantastic addition to any salad. Beautiful served whole or cut diagonally through the middle to show off those mysterious pink and white rings."
      },
 
        {
@@ -74,7 +74,7 @@ const products = [
          category:"Fruits",
          stock:46,
          rating:0,
-         description:"Hi"
+         description:"black blue grapes have a foxy flavour and a brisky pungent taste.We have neatly packed the best quality grapes to make your day fresh and healthy."
        },
 
        {
@@ -86,7 +86,7 @@ const products = [
          category:"Vegetables",
          stock:46,
          rating:0,
-         description:"Hi"
+         description:"They’re usually split, not quite through, along the centre, which helps them cook more evenly."
        },
 
        {
@@ -98,7 +98,7 @@ const products = [
          category:"Vegetables",
          stock:46,
          rating:0,
-         description:"Hi"
+         description:"Organic head of broccoli."
        },
 
        {
@@ -110,7 +110,7 @@ const products = [
          category:"Vegetables",
          stock:46,
          rating:0,
-         description:"Hii"
+         description:"Also know as Hispi or Sweetheart this cabbage is sweet and tender when cooked."
        },
 
        {
@@ -122,7 +122,7 @@ const products = [
          category:"Vegetables",
          stock:46,
          rating:0,
-         description:"Hii"
+         description:"They can be eaten raw, with a mild flavour and crunch, or they can be roasted which brings out their sweetness. Try roasting with parmesan and a drizzle of olive oil for a delicious summer side dish."
        },
 
         {
@@ -134,7 +134,7 @@ const products = [
            category:"Vegetables",
            stock:46,
            rating:0,
-          description:"Hii"
+          description:"Fine Food Specialist’s baby carrots are so fresh, they still have their carrot tops on. Tender and sweet, they are very small and so tender so they are delicious raw."
 
         },
          
@@ -147,7 +147,7 @@ const products = [
            category:"Vegetables",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"Cauliflower arrives almost all season and is always a welcome addition to our vegetable gathering. They really look superb and really work well on the plate."
         },
 
          {
@@ -159,7 +159,7 @@ const products = [
            category:"Vegetables",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"Glossy and bright, sweet peppers have a wonderfully intense flavour, and are endlessly versatile."
          },
 
          {
@@ -171,7 +171,7 @@ const products = [
            category:"Fruits",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"The minerals in coconut are involved in many functions in your body. Coconuts are especially high in manganese, which is essential for bone health and the metabolism of carbohydrates, proteins, and cholesterol"
          },
 
          {
@@ -183,7 +183,7 @@ const products = [
            category:"Vegetables",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"The leaves and stalks can be used to flavour soups, salads, beans & mutton curries. Coriander has a very versatile flavour, working with a wide range of ingredients"
 
          },
 
@@ -196,7 +196,7 @@ const products = [
            category:"Vegetables",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"Try pickling these for your own homemade cucumber pickles for home-made sandwiches or to nibble at picnics."
          },
 
          {
@@ -208,7 +208,7 @@ const products = [
            category:"Vegetables",
            stock:47,
            rating:0,
-           description:"HIii"
+           description:"“You’ll sleep alone, but you’ll sleep really well!” Packed with vitamins and mineral, health benefits from treating infections to reducing blood pressure, Garlic is great for you on so many levels, not to mention the flavor it provides. At Online Tarkari, we bring you quality Garlic from China and Nepal that’s produced under the strictest of safety and quality standards second to none."
          },
 
          {
@@ -220,7 +220,7 @@ const products = [
            category:"Vegetables",
            stock:47,
            rating:0,
-           description:"Hii"
+           description:"Tender, crispy and sweet tasting green cowpea beans have a succulent and pale flesh. These long and slender beans contain lime green peas. They are also known as black-eyed peas and lobia."
          },
 
          {
@@ -232,7 +232,7 @@ const products = [
            category:"Vegetables",
            stock:47,
            rating:0,
-           description:"Hii"
+           description:"Loaded with Vitamin C and beta-carotene, green chillies are great for healthy eyes, skin and immune system. Make sure to store the green chillies at a dark cool area because chillies lose their Vitamin C, when they are exposed to heat, light and air."
          },
           
          {
@@ -244,7 +244,7 @@ const products = [
            category:"Vegetables",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"Green garlic adds a delicate garlicky flavor to spring and early summer dishes."
          },
 
          {
@@ -256,7 +256,7 @@ const products = [
            category:"Fruits",
            stock:47,
            rating:0,
-           description:"Hii"
+           description:"Juicy and snappy, with a beautiful balance of sweet and tart flavour, these grape bunches have a lingering taste."
          },
 
          {
@@ -268,7 +268,7 @@ const products = [
            category:"Fruits",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"jackfruit supplies plenty of nutritional perks: It’s low in calories, naturally fat- and sodium-free, provides ample vitamin A (in the form of beta-carotene) and vitamin C, and packs in a surprising blood pressure-lowering potassium"
          },
 
          {
@@ -280,7 +280,7 @@ const products = [
            category:"Vegetables",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"The most bitter among all fruits, bitter gourds come with a rough, bumpy and green skin. The off-white translucent flesh tastes crispy with the combination of the bitter seeds that are present inside."
          },
 
          {
@@ -292,7 +292,7 @@ const products = [
            category:"Vegetables",
            stock:45,
            rating:0,
-           description:"Hii"
+           description:"The small thin pods contain tiny seeds, and have a delicate and subtle flavour. The flavour of okra becomes more nutty when fried, and a sweeter taste with a more fluid texture when they are boiled. In Asian dishes they are typically sautéed and then thrown into curries and stews to add a crunchy texture."
 
          },
 
@@ -305,7 +305,7 @@ const products = [
            category:"Vegetables",
            stock:45,
            rating:0,
-           description:"Hii"
+           description:"The interior flesh is creamy white with petite seeds that when young are tender and edible but when more mature become hard and should be removed prior to consumption."
          },
 
          {
@@ -317,7 +317,7 @@ const products = [
            category:"Fruits",
            stock:45,
            rating:0,
-           description:"Hii"
+           description:"Organic lemons are an all-round powerhouse of the kitchen, turning anything they touch to culinary gold and boosting your health in the process."
          },
 
          {
@@ -329,7 +329,7 @@ const products = [
            category:"Vegetables",
            stock:45,
            rating:0,
-           description:"Hii"
+           description:"Sweet and fresh these lettuce are the backbone of any successful salad."
          },
 
          {
@@ -341,7 +341,7 @@ const products = [
            category:"Fruits",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"The Empress’s fruit! Lychee was one of the original fruits our company was founded on. The exotic yet familiar taste has followers spanning multiple demographics and cultures. Sweet and aromatic, Lychee is packed with Vitamins C, B2, B6, and Copper."
          },
 
          {
@@ -353,7 +353,7 @@ const products = [
            category:"Vegetables",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"Tender, crispy and sweet tasting green cowpea beans have a succulent and pale flesh. These long and slender beans contain lime green peas. They are also known as black-eyed peas and lobia."
          },
 
          {
@@ -365,7 +365,7 @@ const products = [
            category:"Fruits",
            stock:47,
            rating:0,
-           description:"Hii"
+           description:"Alphonso Mango is premium quality mango in terms of sweetness, richness and flavour. It is famous for its unique fragrance and mouth-watering taste."
          },
 
          {
@@ -377,7 +377,7 @@ const products = [
            category:"Vegetables",
            stock:47,
            rating:0,
-           description:"Hii"
+           description:"Methi leaves are a very popular ingredient in Nepalese and Indian dishes that has a bitter taste and strong aroma."
          },
           
          {
@@ -389,7 +389,7 @@ const products = [
            category:"Vegetables",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"Buttom mushrooms are very small sized mushrooms with smooth round caps and short stems. They have a mild flavour with a good texture that becomes more fragrant and meaty when cooked."
          },
 
          {
@@ -401,7 +401,7 @@ const products = [
            category:"Vegetables",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"Oyster mushrooms are pale to dark gray in colour and have a shape like that of an oyster with a soft and slightly chewy texture."
          },
 
          {
@@ -413,7 +413,7 @@ const products = [
            category:"Vegetables",
            stock:46,
            rating:0,
-           description:"Hii"
+           description:"Fiddlehead ferns are fat free, saturated fat free, cholesterol free, sodium free, a good source of vitamin B2, copper, phosphorous and potassium. An excellent source of vitamin B3 and C and manganese."
          },
 
          {
@@ -425,7 +425,7 @@ const products = [
            category:"Vegetables",
            stock:47,
            rating:0,
-           description:"Hii"
+           description:"Onion is a vegetable which is almost like a staple in Nepalese food. This is also known to be one of the essential ingredients of raw salads. They come in different colours like white, red or yellow and are quite in demand in cold salads and hot soups. You can dice, slice or cut it in rings and put it in burgers and sandwiches. Onions emit a sharp flavour and fragrance once they are fried; it is due to the sulphur compound in the vegetable."
          },
 
          {
@@ -437,7 +437,7 @@ const products = [
            category:"Fruits",
            stock:48,
            rating:0,
-           description:"Hii"
+           description:"Bursting with sweetness and sunshine these organic oranges will bring a smile to all faces."
          },
 
          {
@@ -449,7 +449,7 @@ const products = [
           category:"Vegetables",
           stock:49,
           rating:0,
-          description:"Hii"
+          description:"With a sweet, nutty and tangent flavour, Palaks are green leafy vegetables that are succulent and spoon shaped."
          },
 
          {
@@ -461,7 +461,7 @@ const products = [
            category:"Fruits",
            stock:50,
            rating:0,
-           description:"Hii"
+           description:"Semi ripe papayas have blend of sweet buttery consistency and sour taste. They are half green and half yellow. Ripe papaya have orange flesh and black coloured seeds at the centre."
          },
 
          {
@@ -473,7 +473,7 @@ const products = [
            category:"Vegetables",
            stock:40,
            rating:0,
-           description:"Hii"
+           description:"With a yellowish green skin, Parwal is short, slightly pointed at one end and blunt on the other."
          },
 
          {
@@ -485,7 +485,7 @@ const products = [
            category:"Fruits",
            stock:40,
            rating:0,
-           description:"Hii"
+           description:"Sweet, crunchy, delicious, and best of all, extended season and shelf life!"
          },
 
          {
@@ -497,7 +497,7 @@ const products = [
            category:"Fruits",
            stock:40,
            rating:0,
-           description:"Hii"
+           description:"With the shape of a pine cone, the fruit is loosely fibrous and juicy with white to yellowish flesh. The edible center part is firm, leathery and sweet."
          },
 
          {
@@ -509,7 +509,7 @@ const products = [
            category:"Fruits",
            stock:45,
            rating:0,
-           description:"Hii"
+           description:"Fresho pomegranates can be used to add a lot of bright colour to your fruit salad"
          },
 
          {
@@ -521,7 +521,7 @@ const products = [
            category:"Vegetables",
            stock:45,
            rating:0,
-           description:"Hii"
+           description:"One of the highlights of Spring – these early variety new potatoes have a nutty, earthy flavour"
          },
 
          {
@@ -534,7 +534,7 @@ const products = [
            category:"Vegetables",
            stock:45,
            rating:0,
-           description:"Hii"
+           description:"These Green pumpkin have a delicate and sweet taste. Perfect to fry and use as a garnish, or simply chop and use in pasta sauces and ratatouille."
          },
 
          {
@@ -546,7 +546,7 @@ const products = [
            category:"Vegetables",
            stock:40,
            rating:0,
-           description:"Hii"
+           description:"Raddish can be enjoyed raw or cooked; they absorb all flavours when cooked but withstand their firm texture and original peppery taste."
          },
 
          {
@@ -558,7 +558,7 @@ const products = [
            category:"Vegetables",
            stock:40,
            rating:0,
-           description:"Hii"
+           description:"Green vegetable used mostly in south asia. These products are from nearby bhaktapur"
          },
 
          {
@@ -570,7 +570,7 @@ const products = [
            category:"Fruits",
            stock:40,
            rating:0,
-           description:"Hii"
+           description:"The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness."
          },
 
          {
@@ -582,7 +582,7 @@ const products = [
            category:"Vegetables",
            stock:40,
            rating:0,
-           description:"Ho"
+           description:"Tarul or yam is one of the most popular and healthy vegetables consumed in Nepal. Its importance increases during the Nepali festival maghe sangkranti"
          },
 
          {
@@ -594,7 +594,7 @@ const products = [
            category:"Vegetables",
            stock:40,
            rating:0,
-           description:"Hi"
+           description:"Organic tomatoes are free from harmful chemicals and toxins, plus they are also rich in antioxidants that helps fight diseases like cancer. It also a healthy source of Vitamin C and A (being rich in beta-carotene) along with niacin and folate."
          },
 
          {
@@ -606,7 +606,7 @@ const products = [
            category:"Vegetables",
            stock:40,
            rating:0,
-           description:"Hii"
+           description:"The turnip or white turnip (Brassica rapa subsp. rapa) is a root vegetable commonly grown in temperate climates worldwide for its white, fleshy taproot."
          },
 
          {
@@ -618,7 +618,7 @@ const products = [
            category:"Vegetables",
            stock:40,
            rating:0,
-           description:"hII"
+           description:"Known wordlwide for its delicious seeds, roots, shoots, flowers, leaves and fruit, Chow chow also known as Chayote, is a roughly pear-shaped, mild flavoured and green vegetable."
          },
 
          {
@@ -630,7 +630,7 @@ const products = [
            category:"Fruits",
            stock:40,
            rating:0,
-           description:"Hii"
+           description:"With greenish black to smooth dark green surface, Fresho watermelons are globular in shape and are freshly picked for you directly from our farmers"
 
          }
 
@@ -649,11 +649,11 @@ const products = [
      }
 
       return(
-        <div className="max-w-5xl mx-auto px-4 py-40">
+        <div className="max-w-5xl mx-auto px-4 py-52">
           <div className="flex flex-col md:flex-row gap-10 ">
             <img src={`/assets/${product.image}`}
              alt={product.name}
-             className="w-full md:w-1/2 h-128 rounded-xl shadow"
+             className="w-full md:w-1/2 h-126 rounded-xl shadow"
              />
 
               <div className="flex-1">
