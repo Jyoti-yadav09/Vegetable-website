@@ -59,6 +59,7 @@ const products = [
        slug:"beet-root",
        price:100,
        image:"beet-root",
+       category:"Vegetables",
        stock:46,
        rating:0,
        description:"Hi"
@@ -70,6 +71,7 @@ const products = [
          slug:"black-grape",
          price:100,
          image:"black-grape",
+         category:"Fruits",
          stock:46,
          rating:0,
          description:"Hi"
@@ -81,6 +83,7 @@ const products = [
          slug:"brinjal",
          price:100,
          image:"brinjal.png",
+         category:"Vegetables",
          stock:46,
          rating:0,
          description:"Hi"
@@ -92,6 +95,7 @@ const products = [
          slug:"brocauli",
          price:100,
          image:"cabbage.png",
+         category:"Vegetables",
          stock:46,
          rating:0,
          description:"Hi"
@@ -103,6 +107,7 @@ const products = [
          slug:"cabbage",
          price:100,
          image:"cabbage.png",
+         category:"Vegetables",
          stock:46,
          rating:0,
          description:"Hii"
@@ -114,6 +119,7 @@ const products = [
          slug:"capsicum",
          price:100,
          image:"capsicum.png",
+         category:"Vegetables",
          stock:46,
          rating:0,
          description:"Hii"
@@ -125,6 +131,7 @@ const products = [
            slug:"carrot",
            price:100,
            image:"carrot.png",
+           category:"Vegetables",
            stock:46,
            rating:0,
           description:"Hii"
@@ -137,6 +144,7 @@ const products = [
            slug:"cauliflower",
            price:100,
            image:"cauliflower.png",
+           category:"Vegetables",
            stock:46,
            rating:0,
            description:"Hii"
@@ -148,6 +156,7 @@ const products = [
            slug:"chilly-red",
            price:100,
            image:"chilly-red.png",
+           category:"Vegetables",
            stock:46,
            rating:0,
            description:"Hii"
@@ -159,6 +168,7 @@ const products = [
            slug:"coconut",
            price:100,
            image:"coconut.png",
+           category:"Fruits",
            stock:46,
            rating:0,
            description:"Hii"
@@ -170,6 +180,7 @@ const products = [
            slug:"coriander",
            price:100,
            image:"coriander.png",
+           category:"Vegetables",
            stock:46,
            rating:0,
            description:"Hii"
@@ -182,6 +193,7 @@ const products = [
            slug:"cucumber",
            price:100,
            image:"cucumber.png",
+           category:"Vegetables",
            stock:46,
            rating:0,
            description:"Hii"
@@ -193,6 +205,7 @@ const products = [
            slug:"garlic",
            price:100,
            image:"garlic.png",
+           category:"Vegetables",
            stock:47,
            rating:0,
            description:"HIii"
@@ -204,6 +217,7 @@ const products = [
            slug:"green-bodi",
            price:100,
            image:"green-bodi.png",
+           category:"Vegetables",
            stock:47,
            rating:0,
            description:"Hii"
@@ -215,6 +229,7 @@ const products = [
            slug:"green-chilly",
            price:100,
            image:"green-chilly.png",
+           category:"Vegetables",
            stock:47,
            rating:0,
            description:"Hii"
@@ -226,6 +241,7 @@ const products = [
            slug:"green-garlic",
            price:100,
            image:"green-garlic.png",
+           category:"Vegetables",
            stock:46,
            rating:0,
            description:"Hii"
@@ -237,6 +253,7 @@ const products = [
            slug:"green-grape",
            price:100,
            image:"green-grape.png",
+           category:"Fruits",
            stock:47,
            rating:0,
            description:"Hii"
@@ -248,6 +265,7 @@ const products = [
            slug:"jack-fruit",
            price:100,
            image:"jack-fruit.png",
+           category:"Fruits",
            stock:46,
            rating:0,
            description:"Hii"
@@ -259,6 +277,7 @@ const products = [
            slug:"karela",
            price:100,
            image:"karela.png",
+           category:"Vegetables",
            stock:46,
            rating:0,
            description:"Hii"
@@ -270,6 +289,7 @@ const products = [
            slug:"lady-finger",
            price:100,
            image:"lady-finger.png",
+           category:"Vegetables",
            stock:45,
            rating:0,
            description:"Hii"
@@ -282,6 +302,7 @@ const products = [
            slug:"lauka",
            price:100,
            image:"Laukaa.png",
+           category:"Vegetables",
            stock:45,
            rating:0,
            description:"Hii"
@@ -293,6 +314,7 @@ const products = [
            slug:"lemon",
            price:100,
            image:"lemon.png",
+           category:"Fruits",
            stock:45,
            rating:0,
            description:"Hii"
@@ -304,6 +326,7 @@ const products = [
            slug:"lettuce patta",
            price:100,
            image:"lettuce-patta.png",
+           category:"Vegetables",
            stock:45,
            rating:0,
            description:"Hii"
@@ -315,6 +338,7 @@ const products = [
            slug:"litchi",
            price:100,
            image:"litchi.png",
+           category:"Fruits",
            stock:46,
            rating:0,
            description:"Hii"
@@ -326,6 +350,7 @@ const products = [
            slug:"long-beans",
            price:100,
            image:"long-beans.png",
+           category:"Vegetables",
            stock:46,
            rating:0,
            description:"Hii"
@@ -337,6 +362,7 @@ const products = [
            slug:"mango",
            price:100,
            image:"Mango.png",
+           category:"Fruits",
            stock:47,
            rating:0,
            description:"Hii"
@@ -348,6 +374,7 @@ const products = [
            slug:"methi-saag",
            price:100,
            image:"methi-saag.png",
+           category:"Vegetables",
            stock:47,
            rating:0,
            description:"Hii"
@@ -359,6 +386,7 @@ const products = [
            slug:"mushroom-button",
            price:100,
            image:"mushroom-button.png",
+           category:"Vegetables",
            stock:46,
            rating:0,
            description:"Hii"
@@ -370,6 +398,7 @@ const products = [
            slug:"mushroom-flat",
            price:100,
            image:"mushroom-flat.png",
+           category:"Vegetables",
            stock:46,
            rating:0,
            description:"Hii"
@@ -381,6 +410,7 @@ const products = [
            slug:"neuro",
            price:100,
            image:"neuro.png",
+           category:"Vegetables",
            stock:46,
            rating:0,
            description:"Hii"
@@ -392,6 +422,7 @@ const products = [
            slug:"onion",
            price:100,
            image:"onion.png",
+           category:"Vegetables",
            stock:47,
            rating:0,
            description:"Hii"
@@ -403,6 +434,7 @@ const products = [
            slug:"orange",
            price:100,
            image:"orange.png",
+           category:"Fruits",
            stock:48,
            rating:0,
            description:"Hii"
@@ -414,6 +446,7 @@ const products = [
           slug:"palak-saag",
           price:100,
           image:"palak-saag.png",
+          category:"Vegetables",
           stock:49,
           rating:0,
           description:"Hii"
@@ -425,6 +458,7 @@ const products = [
            slug:"papaya",
            price:100,
            image:"papaya.png",
+           category:"Fruits",
            stock:50,
            rating:0,
            description:"Hii"
@@ -436,6 +470,7 @@ const products = [
            slug:"parwal",
            price:100,
            image:"parwal.png",
+           category:"Vegetables",
            stock:40,
            rating:0,
            description:"Hii"
@@ -447,6 +482,7 @@ const products = [
            slug:"pear",
            price:100,
            image:"pear.png",
+           category:"Fruits",
            stock:40,
            rating:0,
            description:"Hii"
@@ -458,6 +494,7 @@ const products = [
            slug:"pineapple",
            price:100,
            image:"pineapple.png",
+           category:"Fruits",
            stock:40,
            rating:0,
            description:"Hii"
@@ -469,6 +506,7 @@ const products = [
            slug:"pomogranate",
            price:100,
            image:"pomogranate.png",
+           category:"Fruits",
            stock:45,
            rating:0,
            description:"Hii"
@@ -480,6 +518,7 @@ const products = [
            slug:"potato",
            price:100,
            image:"potato.png",
+           category:"Vegetables",
            stock:45,
            rating:0,
            description:"Hii"
@@ -492,6 +531,7 @@ const products = [
            slug:"pumpkin",
            price:100,
            image:"pumpkin.png",
+           category:"Vegetables",
            stock:45,
            rating:0,
            description:"Hii"
@@ -503,6 +543,7 @@ const products = [
            slug:"radish",
            price:100,
            image:"radish.png",
+           category:"Vegetables",
            stock:40,
            rating:0,
            description:"Hii"
@@ -514,6 +555,7 @@ const products = [
            slug:"rayo-saag",
            price:100,
            image:"rayo-saag.png",
+           category:"Vegetables",
            stock:40,
            rating:0,
            description:"Hii"
@@ -525,6 +567,7 @@ const products = [
            slug:"strwberry",
            price:100,
            image:"strawberry.png",
+           category:"Fruits",
            stock:40,
            rating:0,
            description:"Hii"
@@ -536,6 +579,7 @@ const products = [
            slug:"tarul",
            price:100,
            image:"tarul.png",
+           category:"Vegetables",
            stock:40,
            rating:0,
            description:"Ho"
@@ -547,6 +591,7 @@ const products = [
            slug:"tomato",
            price:100,
            image:"tomato.png",
+           category:"Vegetables",
            stock:40,
            rating:0,
            description:"Hi"
@@ -558,6 +603,7 @@ const products = [
            slug:"turnip",
            price:100,
            image:"turnip.png",
+           category:"Vegetables",
            stock:40,
            rating:0,
            description:"Hii"
@@ -569,6 +615,7 @@ const products = [
            slug:"uskus",
            price:100,
            image:"uskus.png",
+           category:"Vegetables",
            stock:40,
            rating:0,
            description:"hII"
@@ -580,6 +627,7 @@ const products = [
            slug:"watermelon",
            price:100,
            image:"watermelon.png",
+           category:"Fruits",
            stock:40,
            rating:0,
            description:"Hii"
@@ -588,4 +636,99 @@ const products = [
 
 ];
 
- 
+   const ProductDetail=()=>
+   {
+     const {slug}=useParams();
+     const product=products.find((p)=>p.slug===slug);
+     const[rating, setRating]=useState(0);
+     const[hover, setHover]=useState(0);
+
+     if(!product)
+     {
+       return <div className="text-center text-red-600 mt-10">Product not found.</div>;
+     }
+
+      return(
+        <div className="max-w-5xl mx-auto px-4 py-40">
+          <div className="flex flex-col md:flex-row gap-10 ">
+            <img src={`/assets/${product.image}`}
+             alt={product.name}
+             className="w-full md:w-1/2 h-128 rounded-xl shadow"
+             />
+
+              <div className="flex-1">
+                <h2 className="text-2xl font-bold mb-2">{product.name}</h2>
+                <p className="text-sm text-gray-500 mb-2">
+                  Category:<span className="text-blue-500">{product.category}</span>
+                </p>
+                <p className="text-gray-700 mb-4">{product.description}</p>
+                <p className="text-2xl font-bold text-gray-900 mb-2"> Rs {product.price}.00</p>
+                <p className="text-sm text-green-600 mb-4">{product.stock} in stock</p>
+                <div className="flex items-center gap-2 mb-6">
+                  <button className="px-4 py-2 bg-black text-white rounded">Add to cart</button>
+                </div>
+              </div>
+          </div>
+
+          {/* Review Section */}
+
+          <div className="mt-12 border-t pt-8">
+            <h3 className="text-xl font-bold mb-4 ">Reviews(0)</h3>
+            <div className="bg-gray-100 p-6 rounded-lg mb-8 ">
+              <h4 className="font-semibold mb-2">Rating Breakdown</h4>
+              {[5,4,3,2,1].map((star)=>
+              (
+                <div key={star} className="flex items-center mb-1">
+                  <span className="w-12">{star} Stars</span>
+                  <div className="flex">
+                    {[...Array(5)].map((_, index)=>
+                    {
+                      return( 
+                      <span key={index} className={index < star ? "text-yellow-500" : "text-gray-300"}>
+                         ★
+                      </span>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
+              <p className="mt-4 text-sm italic text-gray-600">
+                Average Star Rating: <span className="text-yellow-500 font-bold">0.0</span> out of 5(0 vote)
+              </p>
+            </div>
+              <h4 className="font-semibold mb-4">Be the first to review "{product.name}"</h4>
+              <form className="space-y-4 bg-white p-6 rounded-lg shadow">
+                <div>
+                  <label className="block font-medium">Name *</label>
+                  <input type="text" className="w-full border px-3 py-2 rounded mt-1" placeholder="Your name" required/>
+                </div>
+                <div>
+                  <label className="block font-medium">Email *</label>
+                  <input type="email" className="w-full border px-3 py-2 rounded mt-1" placeholder="Your email" required/>
+                </div>
+                <div>
+                  <label className="block font-medium">Your rating *</label>
+                  <div className="flex space-x-1">
+                    {[1,2,3,4,5].map((star)=>
+                    (
+                      <button key={star} type="button" onClick={()=>setRating(star)}
+                         onMouseEnter={()=>setHover(star)}
+                         onMouseLeave={()=>setHover(0)}
+                         className="text-2xl text-yellow-500 focus:outline-none">
+                          {star <= (hover || rating) ? "★":"☆"}
+                         </button>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <label className="block font-medium">Your review *</label>
+                  <textarea rows={4} className="w-full border px-3 py-2 rounded mt-1" placeholder="Write your review..." required></textarea>
+                </div>
+                <button type="submit" className="px-6 py-2 bg-black text-white rounded">Submit</button>
+              </form>
+          </div>
+        </div>
+      );
+   };
+
+    export default ProductDetail;
